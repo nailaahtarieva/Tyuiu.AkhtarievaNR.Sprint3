@@ -4,20 +4,16 @@
     {
         static void Main(string[] args)
         {
-            int a = 3;
-            int b = 2;  
-            int c = 5;
-            int d = 9;
-            int i = 1;
-            while(i<5)
+            int startValue = 1;
+            int stopValue = 8;
+            double value = 0.25;
+            double multSeries = 1;
+            do
             {
-                b++;
-                b += a;
-                c = b - a;
-                d = (c + a) + i;
-                i++;
-            }
-            Console.WriteLine(d);
+                multSeries = multSeries * ((Math.Pow(value, startValue) + 4) * Math.Cos(value));
+                startValue++;
+            } while (startValue <= stopValue);
+            Console.WriteLine(Math.Round(multSeries, 3));
         }
     }
 }
