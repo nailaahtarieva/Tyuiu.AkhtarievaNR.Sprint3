@@ -10,7 +10,7 @@ namespace Tyuiu.AkhtarievaNR.Sprint3.Task0.V20.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                multSeries = multSeries * (Math.Cos(value)+Math.Pow((Convert.ToDouble(i) / Convert.ToDouble(8)), 3));
+                multSeries = multSeries * (Math.Cos(value)+Math.Pow((Convert.ToDouble(i) / 8), 3));
 
             }
             return Math.Round(multSeries, 3);

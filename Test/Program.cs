@@ -4,20 +4,20 @@
     {
         static void Main(string[] args)
         {
-            double multSeries = 1;
-            int i;
-            for (i = 1; i <= 1; i++)
+            int a = 3;
+            int b = 2;  
+            int c = 5;
+            int d = 9;
+            int i = 1;
+            while(i<5)
             {
-            multSeries = multSeries * ((Math.Cos(1)) + (Math.Pow((Convert.ToDouble(i) / Convert.ToDouble(8)), 3)));
-
+                b++;
+                b += a;
+                c = b - a;
+                d = (c + a) + i;
+                i++;
             }
-            Console.WriteLine( Math.Round(multSeries, 3));
-            //Console.WriteLine(Math.Cos(1));
-            //Console.WriteLine(Math.Pow((1/8),3));
-            //Console.WriteLine(Convert.ToDouble(1) / Convert.ToDouble(8));
-            //Console.WriteLine(Convert.ToDouble(2) / Convert.ToDouble(8));
-            //Console.WriteLine(Convert.ToDouble(3) / Convert.ToDouble(8));
-            //Console.WriteLine(Convert.ToDouble(4) / Convert.ToDouble(8));
+            Console.WriteLine(d);
         }
     }
 }
