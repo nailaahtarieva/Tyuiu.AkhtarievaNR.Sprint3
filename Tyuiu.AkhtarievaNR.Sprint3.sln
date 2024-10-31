@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AkhtarievaNR.Sprint3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AkhtarievaNR.Sprint3.Task0.V20.Test", "Tyuiu.AkhtarievaNR.Sprint3.Task0.V20.Test\Tyuiu.AkhtarievaNR.Sprint3.Task0.V20.Test.csproj", "{77CD2C3D-9EF0-4569-870C-35BFA6C91392}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{531D8A1A-8EC0-4C53-B03A-4476FD609C5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
