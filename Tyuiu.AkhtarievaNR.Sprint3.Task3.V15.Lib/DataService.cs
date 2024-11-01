@@ -14,7 +14,7 @@ namespace Tyuiu.AkhtarievaNR.Sprint3.Task3.V15.Lib
             {
                 if (ch == item && Last == ch)
                 {
-                    currentCount += 2;
+                    currentCount += 1;
                 }
                 else
                 {
