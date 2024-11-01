@@ -4,17 +4,20 @@
     {
         static void Main(string[] args)
         {
-            string str = "vn98n! b,.";
-            string result = "";
-            foreach (char c in str)
+            int x;
+            double sp = 0;
+            int i = 0;
+            for (x = -2; x<=2; x++)
             {
-                if (Char.IsDigit(c))
+                if (x==0)
                 {
-                    result += c;
+                    continue;
                 }
+                sp = sp + (3*x - x);
+                i++;
             }
             
-            Console.WriteLine(result);
+            Console.WriteLine(sp);
         }
     }
 }
