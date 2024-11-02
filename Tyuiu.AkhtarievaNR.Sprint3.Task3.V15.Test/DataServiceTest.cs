@@ -9,10 +9,10 @@ namespace Tyuiu.AkhtarievaNR.Sprint3.Task3.V15.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            string str = "lrmmse mg sermmmrt";
+            string value = "lrmmse mg sermmmrt";
             char chr = 'a';
 
-            double res = ds.GetMinCharCount(str,chr);
+            double res = ds.GetMinCharCount(value,chr);
             int wait = 1;
 
             Assert.AreEqual(wait, res);

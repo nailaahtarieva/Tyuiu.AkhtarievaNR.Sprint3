@@ -1,6 +1,6 @@
-﻿using Tyuiu.AkhtarievaNR.Sprint3.Task3.V15.Lib;
+﻿using Tyuiu.AkhtarievaNR.Sprint3.Task6.V9.Lib;
 
-namespace Tyuiu.AkhtarievaNR.Sprint3.Task3.V15
+namespace Tyuiu.AkhtarievaNR.Sprint3.Task6.V9
 {
     internal class Program
     {
@@ -12,29 +12,29 @@ namespace Tyuiu.AkhtarievaNR.Sprint3.Task3.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Алгоритмы циклической структуры                                   *");
-            Console.WriteLine("* Задание: 3                                                              *");
-            Console.WriteLine("* Вариант: 15                                                             *");
+            Console.WriteLine("* Задание: 6                                                              *");
+            Console.WriteLine("* Вариант: 9                                                              *");
             Console.WriteLine("* Выполнила: Ахтариева Наиля Руслановна | ИИПб-24-2                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая используя цикл foreach, которая вычисляет   *");
-            Console.WriteLine("* минимальное кол-во букв m, находящихся на соседних позициях в строке    *");
+            Console.WriteLine("* Написать программу, которая ищет среди целых чисел, принадлежащих       *");
+            Console.WriteLine("* числовому отрезку [19, 30] количество всех делителей                    *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
-            string value = "lrmmse mg sermmmrt";
-            char chr = 'm';
-
-            Console.WriteLine("Исходная строка = " + value);
-            Console.WriteLine("Исходная переменная = " + chr);
-          
+                        
+            int startValue = 19;
+            int stopValue = 15;
+                        
+            Console.WriteLine("Старт шага первой суммы ряда = " + startValue);
+            Console.WriteLine("Конец шага первой суммы ряда = " + stopValue);
+            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" Ответ = " + ds.GetMinCharCount(value, chr));
+            Console.WriteLine("Сумма делителей отрезка = " + ds.GetSumTheDivisors(startValue, startValue));
 
             Console.ReadKey();
         }
